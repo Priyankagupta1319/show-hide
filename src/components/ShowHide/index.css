@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+.Show-hide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  /* height: 200px;
+  width: 300px; */
+  /* align-items: center; */
+
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-bottom: 48px;
+}
+.button {
+  padding-top: 8px;
+  cursor: pointer;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 10px;
+  font-weight: 700;
+  font-family: 'roboto';
+  border-radius: 10px;
+  color: pink;
+  background-color: white;
+}
